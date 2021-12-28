@@ -1,9 +1,7 @@
 import React from 'react'
 import { useLocation } from "react-router";
-import { useEffect, useState, useContext } from "react";
-import Post from "../post/Post";
+import { useEffect, useState } from "react";
 import axiosCall from "../../Axios";
-import Singlepost from '../SinglePost/Singlepost';
 function PostIds() {
     const location = useLocation();
     const path = location.pathname.split("/")[2];

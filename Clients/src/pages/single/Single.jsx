@@ -1,4 +1,3 @@
-import Sidebar from "../../components/sidebar/Sidebar"
 import Singlepost from "../../components/SinglePost/Singlepost"
 import "./single.css"
 

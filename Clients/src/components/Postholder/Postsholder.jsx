@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axiosCall from "../../Axios";
 import Post from "../post/Post";
-import Sidebar from "../sidebar/Sidebar";
 
 export default function Postsholder() {
   const [post, setPost] = useState(null);
-  const PF = "http://localhost:8000/images/";
   let searchCss = {
     padding: "10px",
     width: "50%",

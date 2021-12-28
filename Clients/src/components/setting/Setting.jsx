@@ -106,7 +106,7 @@ export default function Setting() {
           <label className="profilePicture_text">Profile Picture</label>
           <div className="settingPP">
             <img
-              className="profilePicture"
+              className="profilePicture" alt="profilePic"
               src={file ? URL.createObjectURL(file) : PF + user.profilePic}
             />
 

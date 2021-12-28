@@ -38,13 +38,8 @@ export default function Topbar() {
                 <span> SINGLE</span>
               </NavLink>
             </li>
-            {
-              user &&          <li className="topListItems">
-              <NavLink to="/write">
-                <span> PUBLISH</span>
-              </NavLink>
-            </li>
-            }
+  
+            
    
             {user ? (
               <li className="topListItems" onClick={handleLogout}>

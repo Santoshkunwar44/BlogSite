@@ -17,8 +17,7 @@ export default function Login() {
   useEffect(() => {
     const changedLength = password.length;
     setPasswordLength(changedLength);
-    console.log(passwordLength);
-  }, [password]);
+  }, [password,passwordLength]);
   const handleSubmit = async (e) => {
     e.preventDefault();
     dispatch({ type: "LOGIN_START" });
@@ -42,7 +41,7 @@ export default function Login() {
     <div className="login">
       <div className="loginWrapper">
         <span className="loginTitle">Login</span>
-        <span className="errorMsg" style={{display:message=="" ? "none": "block" }}>{message}</span>
+        <span className="errorMsg" style={{display:message==="" ? "none": "block" }}>{message}</span>
         <form className="loginForm" onSubmit={handleSubmit}>
           <label>Username</label>
           <input

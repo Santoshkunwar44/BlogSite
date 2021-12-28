@@ -21,7 +21,6 @@ export default function Register() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const userlength =username.length;
-    const pwdlength =password.length;
     if (!userlength <3) {
 
       try {

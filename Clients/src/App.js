@@ -5,7 +5,6 @@ import Setting from "./components/setting/Setting";
 import Topbar from "./components/topbar/Topbar";
 import "./components/topbar/Topbar.css";
 import { Route, Routes } from "react-router-dom";
-import Write from "./components/write/Write";
 import Home from "./pages/Home/Home";
 import Single from "./pages/single/Single";
 import NOuserSinglePost from "./components/NouserSinglePost/NOuserSinglePost";
@@ -21,7 +20,6 @@ function App() {
       <Topbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/write" element={user ? <Write /> : <Register />} />
         <Route path="/single" element={<Postsholder />} />
         <Route
           path="/single/:id"
