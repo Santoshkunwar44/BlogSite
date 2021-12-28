@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Raleway:ital,wght@1,100&display=swap');
+.post{
+ 
+    margin: 15px 25px 40px 25px;
+    width: 150px;
+    
+    
+
+}
+.postImg{
+    width: 100%;
+    height: 150px;
+    border-radius: 7px;
+    object-fit: cover;
+}
+.postInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.postCat{
+    color: #be9656;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.postTitle{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.postDate{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color:black;
+    font-weight: bolder;
+
+    line-height: 24px;
+
+}
+.postDesc{
+    margin: 20px 10px;
+    font-size: 14px;
+    color: #444;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

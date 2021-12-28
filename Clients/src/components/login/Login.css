@@ -1,0 +1,87 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    object-fit: cover;
+    background:url("https://images.unsplash.com/photo-1638274222556-ee4b26457e95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80");
+    position: relative;
+
+width: 100vw;
+ 
+}
+.loginTitle{
+    font-size: 50px;
+    color: #315880;
+
+}
+.loginWrapper{
+    background-color: #ffff;
+    color: white;
+    width: 500px;
+    height: 360px;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.loginForm{
+    margin-top: 5px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.loginForm >label{
+    color: white;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.loginInput{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 290px;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+    color: black;
+}
+.loginButton{
+    margin-top:20px ;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    background: teal;
+    border: none;
+    outline: none;
+    width: 70px;
+}
+.loginRegisterButton{
+    position:absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    background: teal;
+    border: none;
+    outline: none;
+    width: 70px;
+}
+
+.loginButton:disabled{
+    color: rgb(99, 135, 136);
+    cursor: not-allowed;
+}
+
+.show_hidePassword{
+    cursor: pointer;
+    position: absolute;
+    color: black;
+    right: 10px;
+    bottom: 64px;
+
+}
